@@ -6,31 +6,31 @@
     - B) `var: variableName;`
     - C) `variable = varName;`
     - D) `declare var variableName;`
-    - **Answer:**
+    - **Answer: A**
 
 1. How do you write a single-line comment in JavaScript?
     - A) `<!-- Comment -->`
     - B) `/* Comment */`
     - C) `# Comment`
     - D) `// Comment`
-    - **Answer:**
+    - **Answer: D**
 
 1. Explain the differences between `let`, `var`, and `const` in JavaScript. Provide examples of when to use each one.
-    **Answer:**
+    **Answer: let,vari yeniden teyin elemek olur. Const olmur.var evvel istifade olunurdu, indilerde gormemisem, let daha yaxsidi.**
 
 1. Which of the following is NOT a primitive data type in JavaScript?
     - A) String
     - B) Number
     - C) Object
     - D) Boolean
-    - **Answer:**
+    - **Answer: C**
 
 1. How do you check the data type of a variable in JavaScript?
     - A) `typeof variable`
     - B) `type variable`
     - C) `varType variable`
     - D) `getType(variable)`
-    - **Answer:**
+    - **Answer: A**
 
 1. Describe the concept of "truthy" and "falsy" values in JavaScript. Provide examples of values that are considered truthy and falsy.
 
@@ -41,32 +41,34 @@
       - B) `if (x > 10)`
       - C) `if x > 10 then`
       - D) `if [x > 10]`
-      - **Answer:**
+      - **Answer: B**
 
 1. How do you write a for loop that iterates from 0 to 9 in JavaScript?
     - A) `for (let i = 0; i <= 9; i++)`
     - B) `for (let i = 0; i < 10; i++)`
     - C) `for (let i = 0; i < 9; i++)`
     - D) `for (let i = 1; i <= 10; i++)`
-    - **Answer:**
+    - **Answer:A,B**
 
 1. Explain the differences between the `for`, `while`, and `do...while` loops in JavaScript. Provide examples of when to use each type of loop.
 
-    **Answer:**
+    **Answer: forda for(şərt) olur, whileda is while(){
+        şərt
+    }**
 
 1. Which method would you use to extract a section of a string and return it as a new string without modifying the original string?
     - A) `slice()`
     - B) `substr()`
     - C) `substring()`
     - D) `split()`
-    - **Answer:**
+    - **Answer: A**
 
 1. Given the string `const str = "Hello, World!";`, which of the following expressions correctly converts it to `"HELLO, WORLD!"`?
     - A) `str.toUpperCase()`
     - B) `str.toLocaleUpperCase()`
     - C) `str.toUpper()`
     - D) `str.toString().toUpperCase()`
-    - **Answer:**
+    - **Answer: A**
 
 1. Explain how template literals improve string handling in JavaScript. Provide an example of using a template literal to create a multi-line string and include expressions.
 
@@ -77,32 +79,32 @@
     - B) `forEach()`
     - C) `filter()`
     - D) `reduce()`
-    - **Answer:**
+    - **Answer: C**
 
 1. Given the array `const arr = [1, 2, 3, 4, 5];`, which of the following expressions correctly returns `[2, 4, 6, 8, 10]`?
     - A) `arr.map(num => num * 2)`
     - B) `arr.forEach(num => num * 2)`
     - C) `arr.reduce((acc, num) => acc.push(num * 2), [])`
     - D) `arr.filter(num => num * 2)`
-    - **Answer:**
+    - **Answer: B**
 
 1. Describe the differences between `forEach()`, `map()`, and `reduce()` methods in JavaScript. Provide use cases for each method.
 
-    **Answer:**
+    **Answer: foreachda return olmur map ve reducede olur**
 
 1. Which of the following statements about arrow functions is true?
     - A) Arrow functions have their own `this` context.
     - B) Arrow functions cannot be used as methods.
     - C) Arrow functions are always anonymous.
     - D) Arrow functions do not have their own `this` context.
-    - **Answer:**
+    - **Answer: D**
 
 1. Given the function `function add(a, b) { return a + b; }`, how would you convert it to an arrow function?
     - A) `const add = (a, b) => { return a + b; }`
     - B) `const add = (a, b) => a + b;`
     - C) `const add = (a, b) => { a + b; }`
     - D) `const add = (a, b) => { return a + b }`
-    - **Answer:**
+    - **Answer: A**
 
 1. Explain the concept of function hoisting in JavaScript. Provide an example demonstrating how function declarations and function expressions are hoisted differently.
 
@@ -115,14 +117,14 @@
     - B) `function myFunction(a, default b = 2) {}`
     - C) `function myFunction(a, b : 2) {}`
     - D) `function myFunction(a, b ? 2 : 1) {}`
-    - **Answer:**
+    - **Answer: A**
 
 1. Which statement correctly calls a function `multiply` with a rest parameter to handle multiple arguments?
     - A) `multiply(...args)`
     - B) `multiply(args...)`
     - C) `multiply(...args[])`
     - D) `multiply(args[...])`
-    - **Answer:**
+    - **Answer: A**
 
 1. Explain how you can use rest parameters and spread syntax to handle an unknown number of function arguments. Provide an example for each.
 
@@ -132,7 +134,7 @@
     - B) Arrow functions inherit the `this` context from their parent scope.
     - C) Arrow functions have a dynamic `this` context.
     - D) Arrow functions create a new `this` context.
-    - **Answer:**
+    - **Answer:Mence B**
 
 1. Given the following code, what will be the output?
     ```javascript
@@ -149,11 +151,11 @@
     - B) 11
     - C) undefined
     - D) NaN
-    - **Answer:**
+    - **Answer: A**
 
 1. Discuss the difference between regular functions and arrow functions in terms of the `this` keyword. Provide examples to illustrate how `this` behaves differently in each case.
 
-    **Answer:**
+    **Answer: arrow regulara nisbətədn daha asan oxunan və qısa olur. Arrowu hər yerdə oxumaq olar, regulari function yazılandan sonra**
 
 
 1. What is a closure in JavaScript?
@@ -178,7 +180,7 @@
     - B) 1, 2, 3
     - C) 0, 1, 2
     - D) 0, 0, 0
-    - **Answer:**
+    - **Answer: C**
 
 1. Explain the concept of closures in JavaScript. Provide an example of a closure and describe a practical use case where closures can be beneficial.
 
@@ -190,24 +192,25 @@
     - B) `let obj = { method() {} }`
     - C) `let obj = { method: () => {} }`
     - D) All of the above
-    - **Answer:**
+    - **Answer: C**
 
 1. How do you access the value of a property named `key` in the object `obj`?
     - A) `obj.key`
     - B) `obj[key]`
     - C) `obj["key"]`
     - D) All of the above
-    - **Answer:**
+    - **Answer: B**
 
 1. Explain the difference between dot notation and bracket notation for accessing object properties. Provide examples of when you would use each.
 
+**Answer:**
 
 1. What is the purpose of the `new` keyword in JavaScript?
     - A) To create a new object from a class or constructor function
     - B) To create a new variable
     - C) To define a new function
     - D) To assign a new value to an existing variable
-    - **Answer:**
+    - **Answer: D**
 
 1. Given the constructor function below, how do you create a new instance of `Person`?
     ```javascript
@@ -220,11 +223,11 @@
     - B) `let person = new Person("Alice", 30);`
     - C) `let person = create Person("Alice", 30);`
     - D) `let person = make Person("Alice", 30);`
-    - **Answer:**
+    - **Answer: B**
 
 1. Describe the role of the `new` keyword in JavaScript when creating object instances. Include an example that demonstrates how a constructor function works with the `new` keyword.
 
-    **Answer:**
+    **Answer: new yazanda funksiyaya yeni variables verilir**
 
 
 1. How do you add a new method to an existing constructor's prototype?
@@ -232,7 +235,7 @@
     - B) `Constructor.newMethod = function() {};`
     - C) `Constructor.prototype.newMethod() {};`
     - D) `Constructor.prototype = { newMethod: function() {} };`
-    - **Answer:**
+    - **Answer: A**
 
 1. Given the following code, what will be the output?
     ```javascript
@@ -249,7 +252,7 @@
     - B) `Dog makes a noise.`
     - C) `Animal makes a noise.`
     - D) `Error: speak is not a function`
-    - **Answer:**
+    - **Answer: B**
 
 1. Explain the concept of prototypal inheritance in JavaScript. Provide an example of how one object can inherit properties and methods from another object.
 
@@ -261,13 +264,13 @@
     - B) `constructor`
     - C) `prototype`
     - D) `new`
-    - **Answer:**
+    - **Answer: A**
 1. How do you define a getter method in an ES6 class?
     - A) `get methodName() {}`
     - B) `getter methodName() {}`
     - C) `fetch methodName() {}`
     - D) `retrieve methodName() {}`
-    - **Answer:**
+    - **Answer: A**
 1. Explain the benefits of using ES6 class syntax over traditional constructor functions and prototypes. Provide an example that demonstrates defining a class with a constructor, a method, a getter, and a setter.
 
     **Answer:**
@@ -277,13 +280,13 @@
     - B) `class SubClass inherits SuperClass {}`
     - C) `class SubClass extendsClass SuperClass {}`
     - D) `class SubClass from SuperClass {}`
-    - **Answer:**
+    - **Answer: A**
 1. In the context of class inheritance, what does the `super` keyword do?
     - A) It refers to the instance of the parent class.
     - B) It is used to call the constructor of the parent class.
     - C) It defines a new method in the subclass.
     - D) It is used to override a method in the parent class.
-    - **Answer:**
+    - **Answer: D**
 1. Describe how class inheritance works in ES6. Provide an example that demonstrates creating a base class and a subclass that extends the base class, including the use of the `super` keyword.
 
     **Answer:**
@@ -294,16 +297,16 @@
     - B) Polymorphism
     - C) Encapsulation
     - D) Abstraction
-    - **Answer:**
+    - **Answer: Mence B**
 1. What is polymorphism in the context of object-oriented programming?
     - A) The ability of different classes to inherit from a single class
     - B) The ability of a single function or method to operate on different types of objects
     - C) The ability to create a new class from an existing class
     - D) The ability to hide the implementation details of a class
-    - **Answer:**
+    - **Answer: Bilmirem :(**
 1. Explain the concepts of encapsulation, abstraction, and polymorphism in object-oriented programming. Provide examples that illustrate each concept in JavaScript.
 
-    **Answer:**
+    **Answer: Bilmirem bunlarin ferqini ya da menasini**
 
 
 
@@ -312,16 +315,16 @@
     - B) `fetch(url)`
     - C) `fetchRequest(url, 'GET')`
     - D) `getFetch(url)`
-    - **Answer:**
+    - **Answer: B**
 1. How do you convert a JSON response to a JavaScript object using the Fetch API?
     - A) `response.json()`
     - B) `JSON.parse(response)`
     - C) `response.toJSON()`
     - D) `JSON.stringify(response)`
-    - **Answer:**
+    - **Answer: D**
 1. Explain how you can handle errors when making a request using the Fetch API. Provide an example that includes both network errors and response errors.
 
-    **Answer:**
+    **Answer:Mence try catchla catchin icinde yazilmalidir**
 
 
 1. What is the default method type for Fetch API requests if none is specified?
@@ -329,13 +332,13 @@
     - B) GET
     - C) PUT
     - D) DELETE
-    - **Answer:**
+    - **Answer: B**
 1. How can you send a POST request with a JSON payload using the Fetch API?
     - A) `fetch(url, { method: 'POST', body: JSON.stringify(data) })`
     - B) `fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: data })`
     - C) `fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })`
     - D) `fetch(url, { method: 'POST', headers: { 'Accept': 'application/json' }, body: JSON.stringify(data) })`
-    - **Answer:**
+    - **Answer: C**
 1. Describe how to use the Fetch API to make a request that includes custom headers. Provide an example of a GET request that includes an Authorization header.
 
     **Answer:**
@@ -346,13 +349,13 @@
     - B) `response.json()`
     - C) `response.toJSON()`
     - D) `JSON.stringify(response)`
-    - **Answer:**
+    - **Answer: D**
 1. What is the purpose of the `then` method in a Fetch API request?
     - A) To handle request headers
     - B) To handle request methods
     - C) To handle request bodies
     - D) To handle responses asynchronously
-    - **Answer:**
+    - **Answer: D**
 1. Explain the process of making a Fetch API request to an external API that requires authentication via an API key. Include details on how to manage and secure the API key in your code.
 
     **Answer:**
@@ -362,13 +365,13 @@
     - B) `then`
     - C) `finally`
     - D) `resolve`
-    - **Answer:**
+    - **Answer: B**
 1. What is the purpose of the `catch` method in a promise chain?
     - A) To handle resolved values
     - B) To handle rejected values
     - C) To always execute code regardless of promise state
     - D) To create a new promise
-    - **Answer:**
+    - **Answer: B**
 1. Describe the difference between synchronous and asynchronous code execution in JavaScript. Provide an example where promises are used to handle asynchronous operations.
 
     **Answer:**
@@ -378,13 +381,13 @@
     - B) `await`
     - C) `promise`
     - D) `defer`
-    - **Answer:**
+    - **Answer: A**
 1. In an async function, what does the `await` keyword do?
     - A) It defines an asynchronous function.
     - B) It pauses the execution of the async function until the promise is resolved.
     - C) It rejects the promise.
     - D) It creates a new promise.
-    - **Answer:**
+    - **Answer: B**
 1. Explain how the `async` and `await` keywords simplify working with promises in JavaScript. Provide an example of an async function that fetches data from an API and handles errors.
 
     **Answer:**
@@ -394,13 +397,13 @@
     - B) `catch`
     - C) `finally`
     - D) `resolve`
-    - **Answer:**
+    - **Answer: B**
 1. How do you handle errors in an async function?
     - A) Using a `try...catch` block
     - B) Using `then`
     - C) Using `resolve`
     - D) Using `finally`
-    - **Answer:**
+    - **Answer: A**
 1. Describe how you can use `try...catch` blocks for error handling in async functions. Provide an example that includes both successful and error scenarios.
 
     **Answer:**
@@ -419,7 +422,7 @@
     - B) PUT
     - C) GET
     - D) DELETE
-    - **Answer:**
+    - **Answer: C**
 
 1. Explain the role of RESTful principles in designing Web APIs. Provide an example of a RESTful endpoint and describe its components.
 
@@ -430,14 +433,14 @@
     - B) GET
     - C) PUT
     - D) DELETE
-    - **Answer:**
+    - **Answer: B**
 
 1. How can you send a POST request with a JSON payload using the Fetch API?
     - A) `fetch(url, { method: 'POST', body: JSON.stringify(data) })`
     - B) `fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: data })`
     - C) `fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })`
     - D) `fetch(url, { method: 'POST', headers: { 'Accept': 'application/json' }, body: JSON.stringify(data) })`
-    - **Answer:**
+    - **Answer: C**
 
 1. Describe how to use the Fetch API to make a request that includes custom headers. Provide an example of a GET request that includes an Authorization header.
 
@@ -448,14 +451,14 @@
     - B) `response.json()`
     - C) `response.toJSON()`
     - D) `JSON.stringify(response)`
-    - **Answer:**
+    - **Answer: B**
 
 1. What is the purpose of the `then` method in a Fetch API request?
     - A) To handle request headers
     - B) To handle request methods
     - C) To handle request bodies
     - D) To handle responses asynchronously
-    - **Answer:**
+    - **Answer: Mence D**
 
 1. Explain the process of making a Fetch API request to an external API that requires authentication via an API key. Include details on how to manage and secure the API key in your code.
 
@@ -474,7 +477,7 @@
     - B) `event.prevent()`
     - C) `event.stopPropagation()`
     - D) `event.preventDefault()`
-    - **Answer:**
+    - **Answer: D**
 
 1. Describe how event delegation can improve performance and simplify event handling in JavaScript. Provide an example where event delegation is used effectively.
 
@@ -485,14 +488,14 @@
     - B) `document.createEvent()`
     - C) `event.initCustomEvent()`
     - D) `event.createCustom()`
-    - **Answer:**
+    - **Answer: Mence D**
 
 1. How can you dispatch a custom event to an element?
     - A) `element.sendEvent(customEvent)`
     - B) `element.trigger(customEvent)`
     - C) `element.dispatchEvent(customEvent)`
     - D) `element.fireEvent(customEvent)`
-    - **Answer:**
+    - **Answer:Mence C**
 
 1. Explain the process of creating and dispatching a custom event in JavaScript. Provide an example that demonstrates the creation and usage of a custom event.
 1. What is the primary purpose of debouncing in event handling?
@@ -500,14 +503,14 @@
     - B) To ensure a function is executed only once
     - C) To prevent a function from being executed too frequently
     - D) To delay the execution of a function until a certain condition is met
-    - **Answer:**
+    - **Answer:Mence C**
 
 1. Which of the following libraries can be used for implementing debouncing in JavaScript?
     - A) Lodash
     - B) jQuery
     - C) Axios
     - D) Moment.js
-    - **Answer:**
+    - **Answer: Mence B**
 
 1. Describe the difference between throttling and debouncing in JavaScript. Provide an example of each technique in the context of event handling.
 
@@ -517,14 +520,14 @@
     - B) To handle asynchronous operations
     - C) To manage the data and UI state of an application
     - D) To optimize code performance
-    - **Answer:**
+    - **Answer:Mence C**
 
 1. Which of the following is NOT a common state management library in JavaScript?
     - A) Redux
     - B) Vuex
     - C) MobX
     - D) Lodash
-    - **Answer:**
+    - **Answer:Mence B**
 
 1. Explain the importance of state management in large-scale JavaScript applications. Provide examples of challenges that can arise without proper state management.
 
@@ -535,14 +538,14 @@
     - B) A function that handles side effects
     - C) A function that specifies how the state changes in response to actions
     - D) A function that creates actions
-    - **Answer:**
+    - **Answer:Mence A**
 
 1. In MobX, which decorator is used to make a class property observable?
     - A) `@observable`
     - B) `@computed`
     - C) `@action`
     - D) `@state`
-    - **Answer:**
+    - **Answer: Mence A**
 
 1. Compare and contrast Redux and MobX for state management in JavaScript applications. Discuss the strengths and weaknesses of each library.
 
@@ -553,14 +556,14 @@
     - B) `store.send()`
     - C) `store.trigger()`
     - D) `store.execute()`
-    - **Answer:**
+    - **Answer: Mence A**
 
 1. In MobX, which function is used to create an action?
     - A) `createAction()`
     - B) `action()`
     - C) `makeAction()`
     - D) `dispatchAction()`
-    - **Answer:**
+    - **Answer: Mence D**
 
 1. Describe the process of setting up a simple state management solution using Redux. Include the steps for creating actions, reducers, and connecting the store to a React component.
 
@@ -572,7 +575,7 @@
     - B) Rollup
     - C) Parcel
     - D) Gulp
-    - **Answer:**
+    - **Answer: Mence D, cunki, Gulp kecmisik qalanindan xeberim yoxdu**
 
 1. What is the main purpose of a JavaScript build tool?
     - A) To manage state in JavaScript applications
@@ -591,7 +594,7 @@
     - B) `webpack.config.js`
     - C) `package.json`
     - D) `scripts.js`
-    - **Answer:**
+    - **Answer: C**
 
 1. Which method is used to define a task in Gulp?
     - A) `gulp.task()`
@@ -609,14 +612,14 @@
     - B) Webpack
     - C) Parcel
     - D) ESLint
-    - **Answer:**
+    - **Answer: Mence A**
 
 1. What is the purpose of code splitting in a JavaScript build process?
     - A) To split code into smaller functions
     - B) To divide code into smaller chunks for faster load times
     - C) To separate code into different files for better organization
     - D) To split code into synchronous and asynchronous parts
-    - **Answer:**
+    - **Answer: B**
 
 1. Explain the process of setting up a JavaScript project with Babel and Webpack. Include the steps for configuring Babel to transpile code and Webpack to bundle the code.
 
@@ -628,7 +631,7 @@
     - B) Rollup
     - C) Parcel
     - D) NPM
-    - **Answer:**
+    - **Answer: bilmirem**
 
 1. What is the main benefit of using a module bundler in a JavaScript project?
     - A) To manage dependencies
@@ -646,14 +649,14 @@
     - B) `npm install -g <package>`
     - C) `npm add <package>`
     - D) `npm get <package>`
-    - **Answer:**
+    - **Answer: B**
 
 1. How do you add a package as a development dependency using Yarn?
     - A) `yarn add <package> --dev`
     - B) `yarn add <package> -D`
     - C) `yarn add <package> -g`
     - D) `yarn add <package> --save-dev`
-    - **Answer:**
+    - **Answer: Mence D**
 
 1. Explain the differences between NPM and Yarn as package managers. Discuss the advantages and disadvantages of using each in a JavaScript project.
 
@@ -709,7 +712,7 @@
     - B) `npm install -g typescript`
     - C) `npm install ts`
     - D) `npm install @types`
-    - **Answer:**
+    - **Answer: Mence A**
 
 1. Describe the steps required to set up a new TypeScript project. Include details on the necessary configuration files and compiler options.
 
@@ -720,14 +723,14 @@
     - B) `interface`
     - C) `struct`
     - D) `class`
-    - **Answer:**
+    - **Answer:Mence B**
 
 1. How do you define a variable of type string in TypeScript?
     - A) `let name: text;`
     - B) `let name: String;`
     - C) `let name: string;`
     - D) `let name: str;`
-    - **Answer:**
+    - **Answer: Mence D**
 
 1. Explain the difference between types and interfaces in TypeScript. Provide examples of when you would use each.
 
@@ -850,7 +853,7 @@
     - B) `React.useContext()`
     - C) `React.Context()`
     - D) `React.createContext<Type>()`
-    - **Answer:**
+    - **Answer: Mence A**
 
 1. How do you provide a context value to a component tree in React?
     - A) `<Context.Provider value={...}>`
@@ -960,7 +963,7 @@
     - B) `#`
     - C) `%`
     - D) `&`
-    - **Answer:**
+    - **Answer: Mence A**
 
 1. What is the primary purpose of a decorator in TypeScript?
     - A) To add new properties to an object
@@ -978,7 +981,7 @@
     - B) `type U = A | B;`
     - C) `type U = A && B;`
     - D) `type U = A || B;`
-    - **Answer:**
+    - **Answer: Mence C**
 
 1. What is the purpose of using intersection types in TypeScript?
     - A) To create a type that must satisfy all combined types
@@ -1155,7 +1158,7 @@ ypeScript.
     - B) `useEffect`
     - C) `useReducer`
     - D) `useRef`
-    - **Answer:**
+    - **Answer: Mence A**
 
 1. How do you ensure a side effect in `useEffect` only runs when a specific state variable changes?
     - A) By listing the state variable in the dependency array
@@ -1175,14 +1178,14 @@ useEffect`.
     - B) `useCallback`
     - C) `useEffect`
     - D) `useRef`
-    - **Answer:**
+    - **Answer: Mence A**
 
 1. How do you prevent unnecessary re-renders of a component when using props?
     - A) By using `React.memo`
     - B) By using `useState`
     - C) By using `useEffect`
     - D) By using `useReducer`
-    - **Answer:**
+    - **Answer: Mence A**
 
 1. Discuss techniques for optimizing the performance of React components. Provide examples of how to use `useMemo` and `React.memo` to avoid 
     **Answer:**u
